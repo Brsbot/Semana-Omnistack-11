@@ -1,4 +1,6 @@
 //npx create-react-app frontend
+//On pull run npm install to install 
+//all dependencies listed on package.json
 
 const express = require('express');
 const app = express();
