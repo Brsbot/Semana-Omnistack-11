@@ -1,0 +1,24 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "some text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Git-me-pop/documents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Git-me-pop/documents/issues"
+  },
+  "homepage": "https://github.com/Git-me-pop/documents#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
