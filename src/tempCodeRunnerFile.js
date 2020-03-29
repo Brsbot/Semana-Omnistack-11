@@ -1,18 +1,3 @@
-const express = require('express');
-const routes = express.Router();
-
-const ongCtrl = require('./controlers/OngControler');
-
-
-routes.get('/ongs', ongCtrl.index);
-routes.post('/ongs', ongCtrl.create);
-
-
-module.exports = routes;
-
-
-/*
-//Adding a new ONG
 
 const connection = require('./database/connection');
 const crypto = require('crypto');
@@ -36,4 +21,3 @@ async function ins() {
 };
 ins();
 console.log(connection('ongs').select('*'));
-*/
